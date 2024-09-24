@@ -5,6 +5,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import Testimonials from "./Testimonials";
 import WebinarsSection from "./WebinarsSection";
 import Instructors from "./Instructors";
+import ThreeDCourseCard from "./3dCourseCard";
 import Footer from "./Footer";
 
 export {
@@ -16,4 +17,5 @@ export {
   WebinarsSection,
   Instructors,
   Footer,
+  ThreeDCourseCard,
 };

@@ -60,9 +60,8 @@ const WebinarsSection = () => {
       <div className="flex justify-center items-center flex-wrap gap-5 space-y-5 mx-3">
         <HoverEffect
           items={featuredWebinars.map((webinar) => ({
-            title: "Music Production Essentials",
-            description:
-              "Get started with music production with this comprehensive overview.",
+            title: webinar.title,
+            description: webinar.description,
             link: "/",
           }))}
         />
