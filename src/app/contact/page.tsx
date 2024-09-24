@@ -7,9 +7,9 @@ const Contact = () => {
       <div className="flex flex-col justify-center items-center max-w-[700px] mt-[160px] mb-32 space-y-6 z-10">
         <h1 className="text-4xl md:text-7xl font-bold">Contact Us</h1>
         <p className="text-sm text-gray-500 font-light text-center max-w-[470px]">
-          We're here to help with any questions about our courses, programs, or
-          events. Reach out and let us know how we can assist you in your
-          musical journey.
+          We&apos;re here to help with any questions about our courses,
+          programs, or events. Reach out and let us know how we can assist you
+          in your musical journey.
         </p>
         <div className="flex justify-center flex-col items-center gap-6">
           <input

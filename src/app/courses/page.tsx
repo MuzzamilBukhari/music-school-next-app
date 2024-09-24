@@ -16,7 +16,9 @@ const page = () => {
       </h1>
       <div className="flex justify-center items-center flex-wrap gap-12 ">
         {courses.map((course) => (
-          <ThreeDCourseCard course={course} />
+          <div key={course.id}>
+            <ThreeDCourseCard course={course} />
+          </div>
         ))}
       </div>
     </div>
